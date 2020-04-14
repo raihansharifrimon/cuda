@@ -1,0 +1,179 @@
+@media only screen and (max-width: 1200px)
+{
+    header {
+        height: 80vh;
+    }
+
+    .hero-text-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1024px)
+{    
+    .mobile-menu span {
+        display: block;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+    .logo {
+        margin-left: 5rem;    
+    }
+    
+    .hero-text-box {
+        width: 90%;
+    }
+    
+    html {
+        font-size: 57.5%;
+    }
+    
+    .client-photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+    .client-review {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .contract-section form {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .social-link ul li {
+        margin: 0px 0.3rem;
+    }
+    
+    h2 {
+        font-size: 3rem; 
+    }
+    
+    .portfolio-filter {
+        margin-top: 4.5rem;
+        margin-bottom: 4.5rem;
+    }
+    
+}
+
+
+@media only screen and (max-width: 980px){
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+    
+    header {
+        height: 55vh;
+    }
+    
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 3rem; 
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    
+    .little-description {
+        width: 100%;
+        margin-left: 0;
+        }
+    h2 {
+        font-size: 3rem;
+    }
+    
+    header {
+        height: 50vh;
+    }
+    
+}
+
+@media only screen and (max-width: 480px){
+    .span_1_of_4 {
+        width: 100%;
+    }
+    html {
+        font-size: 60%;
+    }
+    
+    header{
+        height: 65vh;
+    }
+    
+    .client-review{
+        margin-left: 0rem;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+    h4 {
+        margin-top: 1.5rem;
+        font-size: 1.6rem;
+    }
+    
+    .portfolio-section button {
+        margin: 0rem .2rem;
+        padding: .8rem .6rem;
+        font-size: 1.5rem;
+    }
+    
+    .portfolio-section button:first-child {
+        margin-left: 0;
+    }
+    
+    .portfolio-section button:last-child {
+        margin-right: 0;
+    }
+    
+    .contract-section textarea {
+        height: 15rem;
+    }
+    
+    .contract-section form {
+        margin-top: 5rem;
+    }
+    
+    .footer-section {
+        padding: 1rem;
+    }
+    
+    .testimonial .box:nth-child(4),
+    .testimonial .box:last-child {    
+        margin-top: 4rem;
+    }
+    .btn {
+        padding: 1.5rem 4.5rem;
+    }
+    
+    .portfolio-image {
+        margin-top: 2rem;
+}
+}
